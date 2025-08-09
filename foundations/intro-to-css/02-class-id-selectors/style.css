@@ -1,0 +1,19 @@
+/* styles.css */
+/* This is an external CSS file linked to the HTML document */
+.ace {
+  background-color: rgb(227, 54, 66);
+  font-family: Verdana, "DejaVu Sans", sans-serif;
+}
+#two {
+  color: rgb(0, 57, 245);
+  font-size: 36px;
+}
+.jack {
+  font-size: 24px;
+}
+#four {
+  background-color: rgb(95, 242, 36);
+  /* font-size: 24px; This was my original solve, but it can be made more efficient by re-using jack on the id, since it 
+  only has the font size and no need to repeat here. */
+  font-weight: bold;
+}
